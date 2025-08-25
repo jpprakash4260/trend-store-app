@@ -12,7 +12,8 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $IMAGE_NAME:latest'
+                sh 'docker --version'
+                sh 'docker build -f Dockerfile -t $IMAGE_NAME:latest .'
             }
         }
         stage('Push to DockerHub') {
