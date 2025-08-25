@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:jpprakash4260/trend-store-app.git'
+                git branch: 'main', url: 'https://github.com/jpprakash4260/trend-store-app.git'
             }
         }
         stage('Build Docker Image') {
