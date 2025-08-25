@@ -1,0 +1,34 @@
+# Node modules and build caches
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Git and version control
+.git
+.gitignore
+
+# Logs
+logs
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Terraform files
+*.tf
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# IDE and OS-specific files
+.vscode
+.idea
+.DS_Store
+Thumbs.db

@@ -38,6 +38,3 @@ override.tf.json
 # Jenkins secrets
 secrets/
 *.key
-
-# Docker files
-.dockerignore
