@@ -33,6 +33,7 @@ pipeline {
             steps {
                 sh 'kubectl rollout restart deployment/trend-app'
                 sh 'kubectl get pods'
+                sh 'kubectl get svc'
             }
         }
     }
