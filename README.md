@@ -1,6 +1,6 @@
 # Trend Store App
 
-This project is a React application. I deployed it on **AWS EKS** using Docker and CodeBuild. The app runs on **port 3000**.
+This project is a React application. I deployed it on **AWS EKS** using Docker, Jenkins and EKS. The app runs on **port 3000**.
 ---
 
 ## Steps I did
